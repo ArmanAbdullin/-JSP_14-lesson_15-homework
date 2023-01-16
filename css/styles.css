@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  max-width: 1500px;
+  width: 100%;
+  height: 114px;
+  box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+  display: flex;
+}
+header .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+header .container .header-logo {
+  display: flex;
+  align-items: flex-end;
+}
+header .container .header-logo .logo-text {
+  margin: 0;
+  color: #5C5C5C;
+}
+header .container .header-logo .logo-text .logo-text-span {
+  background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+header .container .header-items {
+  display: flex;
+  align-items: center;
+}
+header .container .header-items .header-items-a {
+  margin-left: 56px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFC000;
+}
+header .container .header-items .header-items-a:hover {
+  font-weight: 900;
+  color: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+  border-bottom: 2px solid #FFC000;
+}
+header .container .header-items .header-button {
+  width: 156px;
+  height: 56px;
+  background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+  box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+  border-radius: 100px;
+  border: none;
+  margin-left: 10px;
+}
+header .container .header-items .header-button .header-button-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.promo-block {
+  max-width: 1500px;
+  width: 100%;
+  height: 498px;
+  background-image: url("../images/promo-block-main-image.png");
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.promo-block .promo-block-text {
+  display: flex;
+  flex-direction: column;
+}
+.promo-block .promo-block-text .promo-block-text-h1 {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 158.34%;
+  color: #FFFFFF;
+  margin: 0;
+}
+.promo-block .promo-block-text .promo-block-text-h5 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+.main {
+  margin: 90px 156px;
+  background-color: red;
+  height: 1000px;
+}
+.main .top-main-container {
+  width: 100%;
+  height: 78px;
+  background-color: gray;
+}
+.main .middle-main-container .container-cards {
+  display: grid;
+  grid-columns: 3/1;
+}
+.main .middle-main-container .container-cards .card {
+  width: 303px;
+  height: 279px;
+  background-color: #C4C4C4;
+  border-radius: 10px;
+  width: 303px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.main .middle-main-container .container-cards .card .card-down-block {
+  width: 100%;
+  height: 73px;
+  display: flex;
+  align-items: flex-end;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+}/*# sourceMappingURL=styles.css.map */

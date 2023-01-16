@@ -1,0 +1,74 @@
+header {
+    max-width: 1500px;
+    width: 100%;
+    height: 114px;
+    box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+    display: flex;
+
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        .header-logo {
+            display: flex;
+            align-items: flex-end;
+
+            .logo-text {
+                margin: 0;
+                color: #5C5C5C;
+
+                .logo-text-span {
+                    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                }
+            }
+        }
+
+        .header-items {
+            display: flex;
+            align-items: center;
+
+            .header-items-a {
+                margin-left: 56px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 18px;
+                color: #FFC000;
+            }
+
+            .header-items-a:hover {
+                font-weight: 900;
+                color: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+                border-bottom: 2px solid #FFC000;
+                ;
+            }
+
+            .header-button {
+                width: 156px;
+                height: 56px;
+                background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+                box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+                border-radius: 100px;
+                border: none;
+                margin-left: 10px;
+
+                .header-button-text {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
